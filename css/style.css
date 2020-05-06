@@ -1261,6 +1261,7 @@ a:focus, a:hover {
 
 .team-sm .image img {
   border-radius: 5px;
+  min-width: 100% !important;
 }
 
 .team-sm .image .social-links {
@@ -1953,10 +1954,6 @@ a:focus, a:hover {
 @media (max-width: 768px) {
   .user-login .block .content {
     flex-grow: 1;
-  }
-
-  .team-sm .image img {
-    min-width: 100% !important;
   }
 }
 
