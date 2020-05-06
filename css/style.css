@@ -1954,6 +1954,10 @@ a:focus, a:hover {
   .user-login .block .content {
     flex-grow: 1;
   }
+
+  .member-image {
+    min-width: 100% !important;
+  }
 }
 
 .user-login .block .content .logo {
