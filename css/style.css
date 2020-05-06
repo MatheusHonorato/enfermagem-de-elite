@@ -1955,7 +1955,7 @@ a:focus, a:hover {
     flex-grow: 1;
   }
 
-  .member-image {
+  .team-sm .image img {
     min-width: 100% !important;
   }
 }
