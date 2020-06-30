@@ -16,6 +16,17 @@ h1 {
   line-height: 61px;
 }
 
+.titlep, .title-mob {
+  color: #248766;
+}
+.title-mob {
+  display: none;
+  margin-top: 180px;
+}
+.titlep {
+  font-size: 4em;
+}
+
 h2 {
   font-size: 40px;
   line-height: 50px;
@@ -1671,6 +1682,12 @@ a:focus, a:hover {
 @media (max-width: 768px) {
   .career-featured .block {
     flex-wrap: wrap;
+  }
+  .titlep, .title-desc {
+    display: none;
+  }
+  .title-mob {
+    display: block;
   }
 }
 
