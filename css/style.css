@@ -1683,8 +1683,11 @@ a:focus, a:hover {
   .career-featured .block {
     flex-wrap: wrap;
   }
-  .titlep, .title-desc {
+  .titlep {
     display: none;
+  }
+  .title-desc {
+    text-align: center;
   }
   .title-mob {
     display: block;
